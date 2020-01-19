@@ -23,6 +23,7 @@ The project was implemented in Python 3.7.3 and PySpark.
 4. Hyperparameter tuning for the ALS matrix factorization to find the optimal number of latent factors using PySpark on Databricks
 5. Built and evaluated(using AU-ROC) ALS and Logistic Matrix factorization models
 
-### General Summary
+### General Summary (Results)
+![summary](https://user-images.githubusercontent.com/44115595/72679271-41559800-3a73-11ea-8a53-0b88101396db.PNG)
 
 ### Insights and Recommendations
