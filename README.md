@@ -21,7 +21,7 @@ The project was implemented in Python 3.7.3 and PySpark.
     * TimeDelta - Refers to the difference in months between the lats time that the user attended an event in a group and the first time the user joined the group (indicative of a prolonged interest in the group)
 3. Built the basic memory-based collaborative filtering and content-based recommender systems.
 4. Hyperparameter tuning for the ALS matrix factorization to find the optimal number of latent factors using PySpark on Databricks
-5. Built and evaluated(using RMSE) ALS and Logistic Matrix factorization models
+5. Built and evaluated(using AU-ROC) ALS and Logistic Matrix factorization models
 
 ### General Summary
 
