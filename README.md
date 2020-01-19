@@ -26,4 +26,5 @@ The project was implemented in Python 3.7.3 and PySpark.
 ### General Summary (Results)
 ![summary](https://user-images.githubusercontent.com/44115595/72679271-41559800-3a73-11ea-8a53-0b88101396db.PNG)
 
-### Insights and Recommendations
+### Conclusion
+Based on the results of the recommendation, we saw that the model-based approach performed much better than the memory-based collaborative filtering because the event based data is very sparse (>99%). The model based approach performs well but the AU-ROC is slightly slower than the AU-ROC when we recommend the most popular groups. In the future, we hope to build on these recommendation models by using more context-aware techniques and capitalizing on event description, tags and time.
